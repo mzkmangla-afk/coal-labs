@@ -9,7 +9,7 @@ module mul8s_fast (
     genvar i;
     generate
         for (i = 0; i < 8; i = i + 1) begin : PARTIALS
-            assign pp[i] = b[i] ? ($signed(a) <<< i) : 16'sb0;
+            assign pp[i] = b[i] ? ({{8{a[7]}}, a} <<< i) : 16'sd0;
         end
     endgenerate
 

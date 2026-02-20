@@ -1,0 +1,103 @@
+$date
+	Fri Feb 20 09:39:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mul8u_fast $end
+$var wire 16 ! y [15:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$scope module DUT $end
+$var wire 8 $ a [7:0] $end
+$var wire 8 % b [7:0] $end
+$var wire 16 & y [15:0] $end
+$scope begin PARTIALS[0] $end
+$upscope $end
+$scope begin PARTIALS[1] $end
+$upscope $end
+$scope begin PARTIALS[2] $end
+$upscope $end
+$scope begin PARTIALS[3] $end
+$upscope $end
+$scope begin PARTIALS[4] $end
+$upscope $end
+$scope begin PARTIALS[5] $end
+$upscope $end
+$scope begin PARTIALS[6] $end
+$upscope $end
+$scope begin PARTIALS[7] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b11111111 #
+b11111111 %
+#20
+b0 !
+b0 &
+b0 #
+b0 %
+b11111111 "
+b11111111 $
+#30
+b1111111000000001 !
+b1111111000000001 &
+b11111111 #
+b11111111 %
+#40
+b1 !
+b1 &
+b1 #
+b1 %
+b1 "
+b1 $
+#50
+b111111 !
+b111111 &
+b1001 #
+b1001 %
+b111 "
+b111 $
+#60
+b11100001 !
+b11100001 &
+b1111 #
+b1111 %
+b1111 "
+b1111 $
+#70
+b110110101 !
+b110110101 &
+b10011 #
+b10011 %
+b10111 "
+b10111 $
+#80
+b100000000 !
+b100000000 &
+b10 #
+b10 %
+b10000000 "
+b10000000 $
+#90
+b100111000100000 !
+b100111000100000 &
+b1100100 #
+b1100100 %
+b11001000 "
+b11001000 $
+#100
